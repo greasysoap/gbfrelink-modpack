@@ -1,9 +1,9 @@
 {
   "ModId": "gbfrelink.cheat.easytradeupgrade",
-  "ModName": "Easy Trade & Upgrade",
+  "ModName": "Easy Trade \u0026 Upgrade",
   "ModAuthor": "tastyegg",
-  "ModVersion": "1.0.1",
-  "ModDescription": "Trade/Upgrade everything with Knicknack Vouchers. Adds trade for Ambrosia, Mirage Munition, and Curios (T4).",
+  "ModVersion": "2.0.0",
+  "ModDescription": "Trade/Upgrade for 0 materials.",
   "ModDll": "",
   "ModIcon": "",
   "ModR2RManagedDll32": "",
@@ -15,6 +15,14 @@
   "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "gbfrelink.cheat.easytrade.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
   "PluginData": {
     "GitHubDependencies": {
       "IdToConfigMap": {
@@ -27,6 +35,15 @@
           },
           "ReleaseMetadataName": "gbfrelink.utility.manager.ReleaseMetadata.json"
         },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
         "reloaded.sharedlib.hooks": {
           "Config": {
             "UserName": "Sewer56",
@@ -35,6 +52,26 @@
             "AssetFileName": "reloaded.sharedlib.hooks.zip"
           },
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "reloaded.universal.redirector": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Universal.Redirector",
+            "UseReleaseTag": false,
+            "AssetFileName": ""
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GameBananaDependencies": {
+      "IdToConfigMap": {
+        "reloaded.universal.redirector": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 51225
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
         }
       }
     }
