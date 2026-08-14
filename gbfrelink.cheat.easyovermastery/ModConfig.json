@@ -1,7 +1,7 @@
 {
   "ModId": "gbfrelink.cheat.easyovermastery",
   "ModName": "Easy Overmastery",
-  "ModAuthor": "tastyegg",
+  "ModAuthor": "greasysoap",
   "ModVersion": "1.0.0",
   "ModDescription": "Filtered Overmastery bonuses and set to level 10",
   "ModDll": "",
@@ -15,6 +15,14 @@
   "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "gbfrelink.cheat.easyovermastery.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
   "PluginData": {
     "GitHubDependencies": {
       "IdToConfigMap": {
@@ -27,6 +35,15 @@
           },
           "ReleaseMetadataName": "gbfrelink.utility.manager.ReleaseMetadata.json"
         },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
         "reloaded.sharedlib.hooks": {
           "Config": {
             "UserName": "Sewer56",
@@ -35,6 +52,26 @@
             "AssetFileName": "reloaded.sharedlib.hooks.zip"
           },
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "reloaded.universal.redirector": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Universal.Redirector",
+            "UseReleaseTag": false,
+            "AssetFileName": ""
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GameBananaDependencies": {
+      "IdToConfigMap": {
+        "reloaded.universal.redirector": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 51225
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
         }
       }
     }
