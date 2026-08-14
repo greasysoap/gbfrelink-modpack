@@ -1,9 +1,9 @@
 {
   "ModId": "gbfrelink.cheat.supersup",
   "ModName": "Super Supplementary DMG",
-  "ModAuthor": "tastyegg",
-  "ModVersion": "1.0.0",
-  "ModDescription": "Set the Supplementary DMG sigil to 200000%",
+  "ModAuthor": "greasysoap",
+  "ModVersion": "2.0.0",
+  "ModDescription": "Set the Supplementary DMG skill to 20000000% at level 15",
   "ModDll": "",
   "ModIcon": "",
   "ModR2RManagedDll32": "",
@@ -15,6 +15,14 @@
   "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "gbfrelink.cheat.supersup.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
   "PluginData": {
     "GitHubDependencies": {
       "IdToConfigMap": {
@@ -27,6 +35,15 @@
           },
           "ReleaseMetadataName": "gbfrelink.utility.manager.ReleaseMetadata.json"
         },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
         "reloaded.sharedlib.hooks": {
           "Config": {
             "UserName": "Sewer56",
@@ -35,6 +52,26 @@
             "AssetFileName": "reloaded.sharedlib.hooks.zip"
           },
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "reloaded.universal.redirector": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Universal.Redirector",
+            "UseReleaseTag": false,
+            "AssetFileName": ""
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GameBananaDependencies": {
+      "IdToConfigMap": {
+        "reloaded.universal.redirector": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 51225
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
         }
       }
     }
