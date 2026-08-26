@@ -1,9 +1,9 @@
 {
-  "ModId": "gbfrelink.cheat.supersup",
-  "ModName": "Super Supplementary DMG",
+  "ModId": "gbfrelink.test.strongdummy",
+  "ModName": "Strong Dummy",
   "ModAuthor": "greasysoap",
-  "ModVersion": "2.0.1",
-  "ModDescription": "Sets skill values to max at level: 15 SupDMG; 20 Cooldown; 45 Uplift; 15 Crabvestments",
+  "ModVersion": "2.0.0",
+  "ModDescription": "Sir Barrold has 50k ATK",
   "ModDll": "",
   "ModIcon": "",
   "ModR2RManagedDll32": "",
@@ -14,7 +14,7 @@
   "CanUnload": null,
   "HasExports": null,
   "IsLibrary": false,
-  "ReleaseMetadataFileName": "gbfrelink.cheat.supersup.ReleaseMetadata.json",
+  "ReleaseMetadataFileName": "gbfrelink.test.strongdummy.ReleaseMetadata.json",
   "IgnoreRegexes": [
     ".*\\.json"
   ],
