@@ -3,7 +3,7 @@
   "ModName": "Easy Character Plus Sigils",
   "ModAuthor": "signore-fifty",
   "ModVersion": "2.0.0",
-  "ModDescription": "Replaces character sigils in the shop with plus variants at unlimited quantities.",
+  "ModDescription": "Replaces character sigils in the shop with plus variants at unlimited quantities. Secondary sigil skills are restricted to one skill by the skill_lot.tbl file (default is Autorevive).",
   "ModDll": "",
   "ModIcon": "",
   "ModR2RManagedDll32": "",
